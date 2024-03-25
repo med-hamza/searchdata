@@ -1,124 +1,375 @@
 {
-"search" :  [
+"availability" :  [
+   {
+  "doctor_id": 1,
+   "status": "available",
+  "schedule": [
+    {"day": "Monday", "start_time": "08:00", "end_time": "12:00"},
+    {"day": "Monday", "start_time": "14:00", "end_time": "18:00"},
+    {"day": "Tuesday", "start_time": "08:00", "end_time": "12:00"},
+    {"day": "Tuesday", "start_time": "14:00", "end_time": "18:00"},
+    {"day": "Wednesday", "start_time": "08:00", "end_time": "12:00"},
+    {"day": "Wednesday", "start_time": "14:00", "end_time": "18:00"},
+    {"day": "Thursday", "start_time": "08:00", "end_time": "12:00"},
+    {"day": "Thursday", "start_time": "14:00", "end_time": "18:00"},
+    {"day": "Friday", "start_time": "08:00", "end_time": "12:00"},
+    {"day": "Friday", "start_time": "14:00", "end_time": "18:00"},
+    {"day": "Saturday", "start_time": "08:00", "end_time": "12:00"}
+    {"day": "Sunday", "status": "closed"}
+  ]
+},  
     {
-        "id": 1,
-        "name": "Dr. John Smith",
-        "category": "Surgery",
-        "title": "Cardiothoracic Surgeon"
-    },
+  "doctor_id": 2,
+  "status": "available",
+  "schedule": [
+    {"day": "Monday", "start_time": "08:30", "end_time": "12:30"},
+    {"day": "Monday", "start_time": "14:30", "end_time": "18:30"},
+    {"day": "Tuesday", "start_time": "08:30", "end_time": "12:30"},
+    {"day": "Tuesday", "start_time": "14:30", "end_time": "18:30"},
+    {"day": "Wednesday", "start_time": "08:30", "end_time": "12:30"},
+    {"day": "Wednesday", "start_time": "14:30", "end_time": "18:30"},
+    {"day": "Thursday", "start_time": "08:30", "end_time": "12:30"},
+    {"day": "Thursday", "start_time": "14:30", "end_time": "18:30"},
+    {"day": "Friday", "start_time": "08:30", "end_time": "12:30"},
+    {"day": "Friday", "start_time": "14:30", "end_time": "18:30"},
+    {"day": "Saturday", "start_time": "08:30", "end_time": "12:30"},
+    {"day": "Sunday", "status": "closed"}
+  ]
+},
     {
-        "id": 2,
-        "name": "Dr. Emily Johnson",
-        "category": "Orthopedics",
-        "title": "Orthopedic Dermatologist"
-    },
+  "doctor_id": 3,
+  "status": "available",
+  "schedule": [
+    {"day": "Monday", "start_time": "09:00", "end_time": "13:00"},
+    {"day": "Monday", "start_time": "15:00", "end_time": "19:00"},
+    {"day": "Tuesday", "start_time": "09:00", "end_time": "13:00"},
+    {"day": "Tuesday", "start_time": "15:00", "end_time": "19:00"},
+    {"day": "Wednesday", "start_time": "09:00", "end_time": "13:00"},
+    {"day": "Wednesday", "start_time": "15:00", "end_time": "19:00"},
+    {"day": "Thursday", "start_time": "09:00", "end_time": "13:00"},
+    {"day": "Thursday", "start_time": "15:00", "end_time": "19:00"},
+    {"day": "Friday", "start_time": "09:00", "end_time": "13:00"},
+    {"day": "Friday", "start_time": "15:00", "end_time": "19:00"},
+    {"day": "Saturday", "start_time": "09:00", "end_time": "13:00"},
+    {"day": "Sunday", "status": "closed"}
+  ]
+},
     {
-        "id": 3,
-        "name": "Dr. Michael Brown",
-        "category": "Paediatrics",
-        "title": "Pediatrician"
-    },
+  "doctor_id": 4,
+  "status": "available",
+  "schedule": [
+    {"day": "Monday", "start_time": "09:30", "end_time": "13:30"},
+    {"day": "Monday", "start_time": "15:30", "end_time": "19:30"},
+    {"day": "Tuesday", "start_time": "09:30", "end_time": "13:30"},
+    {"day": "Tuesday", "start_time": "15:30", "end_time": "19:30"},
+    {"day": "Wednesday", "start_time": "09:30", "end_time": "13:30"},
+    {"day": "Wednesday", "start_time": "15:30", "end_time": "19:30"},
+    {"day": "Thursday", "start_time": "09:30", "end_time": "13:30"},
+    {"day": "Thursday", "start_time": "15:30", "end_time": "19:30"},
+    {"day": "Friday", "start_time": "09:30", "end_time": "13:30"},
+    {"day": "Friday", "start_time": "15:30", "end_time": "19:30"},
+    {"day": "Saturday", "start_time": "09:30", "end_time": "13:30"},
+    {"day": "Sunday", "status": "closed"}
+  ]
+},
     {
-        "id": 4,
-        "name": "Dr. Sarah Lee",
-        "category": "OBG",
-        "title": "Obstetrician-Gynecologist (OBGYN)"
-    },
+  "doctor_id": 5,
+  "status": "available",
+  "schedule": [
+    {"day": "Monday", "start_time": "10:00", "end_time": "14:00"},
+    {"day": "Monday", "start_time": "16:00", "end_time": "20:00"},
+    {"day": "Tuesday", "start_time": "10:00", "end_time": "14:00"},
+    {"day": "Tuesday", "start_time": "16:00", "end_time": "20:00"},
+    {"day": "Wednesday", "start_time": "10:00", "end_time": "14:00"},
+    {"day": "Wednesday", "start_time": "16:00", "end_time": "20:00"},
+    {"day": "Thursday", "start_time": "10:00", "end_time": "14:00"},
+    {"day": "Thursday", "start_time": "16:00", "end_time": "20:00"},
+    {"day": "Friday", "start_time": "10:00", "end_time": "14:00"},
+    {"day": "Friday", "start_time": "16:00", "end_time": "20:00"},
+    {"day": "Saturday", "start_time": "10:00", "end_time": "14:00"},
+    {"day": "Sunday", "status": "closed"}
+  ]
+},
     {
-        "id": 5,
-        "name": "Dr. David Miller",
-        "category": "Cardiology",
-        "title": "Cardiac Surgeon"
-    },
+  "doctor_id": 6,
+  "status": "available",
+  "schedule": [
+    {"day": "Monday", "start_time": "10:30", "end_time": "14:30"},
+    {"day": "Monday", "start_time": "16:30", "end_time": "20:30"},
+    {"day": "Tuesday", "start_time": "10:30", "end_time": "14:30"},
+    {"day": "Tuesday", "start_time": "16:30", "end_time": "20:30"},
+    {"day": "Wednesday", "start_time": "10:30", "end_time": "14:30"},
+    {"day": "Wednesday", "start_time": "16:30", "end_time": "20:30"},
+    {"day": "Thursday", "start_time": "10:30", "end_time": "14:30"},
+    {"day": "Thursday", "start_time": "16:30", "end_time": "20:30"},
+    {"day": "Friday", "start_time": "10:30", "end_time": "14:30"},
+    {"day": "Friday", "start_time": "16:30", "end_time": "20:30"},
+    {"day": "Saturday", "start_time": "10:30", "end_time": "14:30"},
+    {"day": "Sunday", "status": "closed"}
+  ]
+},
     {
-        "id": 6,
-        "name": "Dr. Maria Garcia",
-        "category": "Neurology",
-        "title": "Neurocardiologist"
-    },
+  "doctor_id": 7,
+  "status": "available",
+  "schedule": [
+    {"day": "Monday", "start_time": "11:00", "end_time": "15:00"},
+    {"day": "Monday", "start_time": "17:00", "end_time": "21:00"},
+    {"day": "Tuesday", "start_time": "11:00", "end_time": "15:00"},
+    {"day": "Tuesday", "start_time": "17:00", "end_time": "21:00"},
+    {"day": "Wednesday", "start_time": "11:00", "end_time": "15:00"},
+    {"day": "Wednesday", "start_time": "17:00", "end_time": "21:00"},
+    {"day": "Thursday", "start_time": "11:00", "end_time": "15:00"},
+    {"day": "Thursday", "start_time": "17:00", "end_time": "21:00"},
+    {"day": "Friday", "start_time": "11:00", "end_time": "15:00"},
+    {"day": "Friday", "start_time": "17:00", "end_time": "21:00"},
+    {"day": "Saturday", "start_time": "11:00", "end_time": "15:00"},
+    {"day": "Sunday", "status": "closed"}
+  ]
+},
     {
-        "id": 7,
-        "name": "Dr. James Wang",
-        "category": "Pulmonology",
-        "title": "Pulmonary Dermatologist"
-    },
+  "doctor_id": 8,
+  "status": "available",
+  "schedule": [
+    {"day": "Monday", "start_time": "11:30", "end_time": "15:30"},
+    {"day": "Monday", "start_time": "17:30", "end_time": "21:30"},
+    {"day": "Tuesday", "start_time": "11:30", "end_time": "15:30"},
+    {"day": "Tuesday", "start_time": "17:30", "end_time": "21:30"},
+    {"day": "Wednesday", "start_time": "11:30", "end_time": "15:30"},
+    {"day": "Wednesday", "start_time": "17:30", "end_time": "21:30"},
+    {"day": "Thursday", "start_time": "11:30", "end_time": "15:30"},
+    {"day": "Thursday", "start_time": "17:30", "end_time": "21:30"},
+    {"day": "Friday", "start_time": "11:30", "end_time": "15:30"},
+    {"day": "Friday", "start_time": "17:30", "end_time": "21:30"},
+    {"day": "Saturday", "start_time": "11:30", "end_time": "15:30"},
+    {"day": "Sunday", "status": "closed"}
+  ]
+},
     {
-        "id": 8,
-        "name": "Dr. Rachel Patel",
-        "category": "Surgery",
-        "title": "Pediatric Surgeon"
-    },
+  "doctor_id": 9,
+  "status": "available",
+  "schedule": [
+    {"day": "Monday", "start_time": "12:00", "end_time": "16:00"},
+    {"day": "Monday", "start_time": "18:00", "end_time": "22:00"},
+    {"day": "Tuesday", "start_time": "12:00", "end_time": "16:00"},
+    {"day": "Tuesday", "start_time": "18:00", "end_time": "22:00"},
+    {"day": "Wednesday", "start_time": "12:00", "end_time": "16:00"},
+    {"day": "Wednesday", "start_time": "18:00", "end_time": "22:00"},
+    {"day": "Thursday", "start_time": "12:00", "end_time": "16:00"},
+    {"day": "Thursday", "start_time": "18:00", "end_time": "22:00"},
+    {"day": "Friday", "start_time": "12:00", "end_time": "16:00"},
+    {"day": "Friday", "start_time": "18:00", "end_time": "22:00"},
+    {"day": "Saturday", "start_time": "12:00", "end_time": "16:00"},
+    {"day": "Sunday", "status": "closed"}
+  ]
+},
     {
-        "id": 9,
-        "name": "Dr. Daniel Kim",
-        "category": "Orthopedics",
-        "title": "Orthopedic Obstetrician-Gynecologist (OBGYN)"
-    },
+  "doctor_id": 10,
+  "status": "available",
+  "schedule": [
+    {"day": "Monday", "start_time": "12:30", "end_time": "16:30"},
+    {"day": "Monday", "start_time": "18:30", "end_time": "22:30"},
+    {"day": "Tuesday", "start_time": "12:30", "end_time": "16:30"},
+    {"day": "Tuesday", "start_time": "18:30", "end_time": "22:30"},
+    {"day": "Wednesday", "start_time": "12:30", "end_time": "16:30"},
+    {"day": "Wednesday", "start_time": "18:30", "end_time": "22:30"},
+    {"day": "Thursday", "start_time": "12:30", "end_time": "16:30"},
+    {"day": "Thursday", "start_time": "18:30", "end_time": "22:30"},
+    {"day": "Friday", "start_time": "12:30", "end_time": "16:30"},
+    {"day": "Friday", "start_time": "18:30", "end_time": "22:30"},
+    {"day": "Saturday", "start_time": "12:30", "end_time": "16:30"},
+    {"day": "Sunday", "status": "closed"}
+  ]
+},
     {
-        "id": 10,
-        "name": "Dr. Jennifer Lopez",
-        "category": "Paediatrics",
-        "title": "Pediatric Orthopedic Surgeon"
-    },
+  "doctor_id": 11,
+  "status": "available",
+  "schedule": [
+    {"day": "Monday", "start_time": "13:00", "end_time": "17:00"},
+    {"day": "Monday", "start_time": "19:00", "end_time": "23:00"},
+    {"day": "Tuesday", "start_time": "13:00", "end_time": "17:00"},
+    {"day": "Tuesday", "start_time": "19:00", "end_time": "23:00"},
+    {"day": "Wednesday", "start_time": "13:00", "end_time": "17:00"},
+    {"day": "Wednesday", "start_time": "19:00", "end_time": "23:00"},
+    {"day": "Thursday", "start_time": "13:00", "end_time": "17:00"},
+    {"day": "Thursday", "start_time": "19:00", "end_time": "23:00"},
+    {"day": "Friday", "start_time": "13:00", "end_time": "17:00"},
+    {"day": "Friday", "start_time": "19:00", "end_time": "23:00"},
+    {"day": "Saturday", "start_time": "13:00", "end_time": "17:00"},
+    {"day": "Sunday", "status": "closed"}
+  ]
+},
     {
-        "id": 11,
-        "name": "Dr. William Chen",
-        "category": "OBG",
-        "title": "Cardiovascular Specialist"
-    },
+  "doctor_id": 12,
+  "status": "available",
+  "schedule": [
+    {"day": "Monday", "start_time": "13:30", "end_time": "17:30"},
+    {"day": "Monday", "start_time": "19:30", "end_time": "23:30"},
+    {"day": "Tuesday", "start_time": "13:30", "end_time": "17:30"},
+    {"day": "Tuesday", "start_time": "19:30", "end_time": "23:30"},
+    {"day": "Wednesday", "start_time": "13:30", "end_time": "17:30"},
+    {"day": "Wednesday", "start_time": "19:30", "end_time": "23:30"},
+    {"day": "Thursday", "start_time": "13:30", "end_time": "17:30"},
+    {"day": "Thursday", "start_time": "19:30", "end_time": "23:30"},
+    {"day": "Friday", "start_time": "13:30", "end_time": "17:30"},
+    {"day": "Friday", "start_time": "19:30", "end_time": "23:30"},
+    {"day": "Saturday", "start_time": "13:30", "end_time": "17:30"},
+    {"day": "Sunday", "status": "closed"}
+  ]
+},
     {
-        "id": 12,
-        "name": "Dr. Michelle Adams",
-        "category": "Cardiology",
-        "title": "Cardiologist Dermatologist"
-    },
+  "doctor_id": 13,
+  "status": "available",
+  "schedule": [
+    {"day": "Monday", "start_time": "14:00", "end_time": "18:00"},
+    {"day": "Monday", "start_time": "20:00", "end_time": "00:00"},
+    {"day": "Tuesday", "start_time": "14:00", "end_time": "18:00"},
+    {"day": "Tuesday", "start_time": "20:00", "end_time": "00:00"},
+    {"day": "Wednesday", "start_time": "14:00", "end_time": "18:00"},
+    {"day": "Wednesday", "start_time": "20:00", "end_time": "00:00"},
+    {"day": "Thursday", "start_time": "14:00", "end_time": "18:00"},
+    {"day": "Thursday", "start_time": "20:00", "end_time": "00:00"},
+    {"day": "Friday", "start_time": "14:00", "end_time": "18:00"},
+    {"day": "Friday", "start_time": "20:00", "end_time": "00:00"},
+    {"day": "Saturday", "start_time": "14:00", "end_time":"14:30"
+    {"day": "Saturday", "start_time": "14:00", "end_time": "18:00"},
+    {"day": "Saturday", "start_time": "20:00", "end_time": "00:00"},
+    {"day": "Sunday", "status": "closed"}
+  ]
+},
     {
-        "id": 13,
-        "name": "Dr. Alexander Wilson",
-        "category": "Neurology",
-        "title": "Pediatric Neurologist"
-    },
+  "doctor_id": 14,
+  "status": "available",
+  "schedule": [
+    {"day": "Monday", "start_time": "14:30", "end_time": "18:30"},
+    {"day": "Monday", "start_time": "20:30", "end_time": "00:30"},
+    {"day": "Tuesday", "start_time": "14:30", "end_time": "18:30"},
+    {"day": "Tuesday", "start_time": "20:30", "end_time": "00:30"},
+    {"day": "Wednesday", "start_time": "14:30", "end_time": "18:30"},
+    {"day": "Wednesday", "start_time": "20:30", "end_time": "00:30"},
+    {"day": "Thursday", "start_time": "14:30", "end_time": "18:30"},
+    {"day": "Thursday", "start_time": "20:30", "end_time": "00:30"},
+    {"day": "Friday", "start_time": "14:30", "end_time": "18:30"},
+    {"day": "Friday", "start_time": "20:30", "end_time": "00:30"},
+    {"day": "Saturday", "start_time": "14:30", "end_time": "18:30"},
+    {"day": "Saturday", "start_time": "20:30", "end_time": "00:30"},
+    {"day": "Sunday", "status": "closed"}
+  ]
+},
     {
-        "id": 14,
-        "name": "Dr. Olivia Martinez",
-        "category": "Pulmonology",
-        "title": "Obstetric Pulmonologist"
-    },
+  "doctor_id": 15,
+  "status": "available",
+  "schedule": [
+    {"day": "Monday", "start_time": "15:00", "end_time": "19:00"},
+    {"day": "Monday", "start_time": "21:00", "end_time": "01:00"},
+    {"day": "Tuesday", "start_time": "15:00", "end_time": "19:00"},
+    {"day": "Tuesday", "start_time": "21:00", "end_time": "01:00"},
+    {"day": "Wednesday", "start_time": "15:00", "end_time": "19:00"},
+    {"day": "Wednesday", "start_time": "21:00", "end_time": "01:00"},
+    {"day": "Thursday", "start_time": "15:00", "end_time": "19:00"},
+    {"day": "Thursday", "start_time": "21:00", "end_time": "01:00"},
+    {"day": "Friday", "start_time": "15:00", "end_time": "19:00"},
+    {"day": "Friday", "start_time": "21:00", "end_time": "01:00"},
+    {"day": "Saturday", "start_time": "15:00", "end_time": "19:00"},
+    {"day": "Saturday", "start_time": "21:00", "end_time": "01:00"},
+    {"day": "Sunday", "status": "closed"}
+  ]
+},
     {
-        "id": 15,
-        "name": "Dr. Ethan Thompson",
-        "category": "Surgery",
-        "title": "Orthopedic Surgeon"
-    },
+  "doctor_id": 16,
+  "status": "available",
+  "schedule": [
+    {"day": "Monday", "start_time": "15:30", "end_time": "19:30"},
+    {"day": "Monday", "start_time": "21:30", "end_time": "01:30"},
+    {"day": "Tuesday", "start_time": "15:30", "end_time": "19:30"},
+    {"day": "Tuesday", "start_time": "21:30", "end_time": "01:30"},
+    {"day": "Wednesday", "start_time": "15:30", "end_time": "19:30"},
+    {"day": "Wednesday", "start_time": "21:30", "end_time": "01:30"},
+    {"day": "Thursday", "start_time": "15:30", "end_time": "19:30"},
+    {"day": "Thursday", "start_time": "21:30", "end_time": "01:30"},
+    {"day": "Friday", "start_time": "15:30", "end_time": "19:30"},
+    {"day": "Friday", "start_time": "21:30", "end_time": "01:30"},
+    {"day": "Saturday", "start_time": "15:30", "end_time": "19:30"},
+    {"day": "Saturday", "start_time": "21:30", "end_time": "01:30"},
+    {"day": "Sunday", "status": "closed"}
+  ]
+},
+      {
+  "doctor_id": 17,
+  "status": "available",
+  "schedule": [
+    {"day": "Monday", "start_time": "14:00", "end_time": "18:00"},
+    {"day": "Monday", "start_time": "20:00", "end_time": "00:00"},
+    {"day": "Tuesday", "start_time": "14:00", "end_time": "18:00"},
+    {"day": "Tuesday", "start_time": "20:00", "end_time": "00:00"},
+    {"day": "Wednesday", "start_time": "14:00", "end_time": "18:00"},
+    {"day": "Wednesday", "start_time": "20:00", "end_time": "00:00"},
+    {"day": "Thursday", "start_time": "14:00", "end_time": "18:00"},
+    {"day": "Thursday", "start_time": "20:00", "end_time": "00:00"},
+    {"day": "Friday", "start_time": "14:00", "end_time": "18:00"},
+    {"day": "Friday", "start_time": "20:00", "end_time": "00:00"},
+    {"day": "Saturday", "start_time": "14:00", "end_time":"14:30"
+    {"day": "Saturday", "start_time": "14:00", "end_time": "18:00"},
+    {"day": "Saturday", "start_time": "20:00", "end_time": "00:00"},
+    {"day": "Sunday", "status": "closed"}
+  ]
+},
     {
-        "id": 16,
-        "name": "Dr. Isabella White",
-        "category": "Orthopedics",
-        "title": "Cardiothoracic Specialist"
-    },
+  "doctor_id": 18,
+  "status": "available",
+  "schedule": [
+    {"day": "Monday", "start_time": "16:30", "end_time": "20:30"},
+    {"day": "Monday", "start_time": "22:30", "end_time": "02:30"},
+    {"day": "Tuesday", "start_time": "16:30", "end_time": "20:30"},
+    {"day": "Tuesday", "start_time": "22:30", "end_time": "02:30"},
+    {"day": "Wednesday", "start_time": "16:30", "end_time": "20:30"},
+    {"day": "Wednesday", "start_time": "22:30", "end_time": "02:30"},
+    {"day": "Thursday", "start_time": "16:30", "end_time": "20:30"},
+    {"day": "Thursday", "start_time": "22:30", "end_time": "02:30"},
+    {"day": "Friday", "start_time": "16:30", "end_time": "20:30"},
+    {"day": "Friday", "start_time": "22:30", "end_time": "02:30"},
+    {"day": "Saturday", "start_time": "16:30", "end_time": "20:30"},
+    {"day": "Saturday", "start_time": "22:30", "end_time": "02:30"},
+    {"day": "Sunday", "status": "closed"}
+  ]
+},
     {
-        "id": 17,
-        "name": "Dr. Jacob Taylor",
-        "category": "Paediatrics",
-        "title": "Pediatric Dermatologist"
-    },
+  "doctor_id": 19,
+  "status": "available",
+  "schedule": [
+    {"day": "Monday", "start_time": "17:00", "end_time": "21:00"},
+    {"day": "Monday", "start_time": "23:00", "end_time": "03:00"},
+    {"day": "Tuesday", "start_time": "17:00", "end_time": "21:00"},
+    {"day": "Tuesday", "start_time": "23:00", "end_time": "03:00"},
+    {"day": "Wednesday", "start_time": "17:00", "end_time": "21:00"},
+    {"day": "Wednesday", "start_time": "23:00", "end_time": "03:00"},
+    {"day": "Thursday", "start_time": "17:00", "end_time": "21:00"},
+    {"day": "Thursday", "start_time": "23:00", "end_time": "03:00"},
+    {"day": "Friday", "start_time": "17:00", "end_time": "21:00"},
+    {"day": "Friday", "start_time": "23:00", "end_time": "03:00"},
+    {"day": "Saturday", "start_time": "17:00", "end_time": "21:00"},
+    {"day": "Saturday", "start_time": "23:00", "end_time": "03:00"},
+    {"day": "Sunday", "status": "closed"}
+  ]
+},
     {
-        "id": 18,
-        "name": "Dr. Sophia Harris",
-        "category": "OBG",
-        "title": "Pediatric Obstetrician-Gynecologist (OBGYN)"
-    },
-    {
-        "id": 19,
-        "name": "Dr. Benjamin Clark",
-        "category": "Cardiology",
-        "title": "Cardiac Obstetrician-Gynecologist (OBGYN)"
-    },
-    {
-        "id": 20,
-        "name": "Dr. Chloe Baker",
-        "category": "Neurology",
-        "title": "Neurosurgical Orthopedist"
-    }
+  "doctor_id": 20,
+  "status": "available",
+  "schedule": [
+    {"day": "Monday", "start_time": "17:30", "end_time": "21:30"},
+    {"day": "Monday", "start_time": "23:30", "end_time": "03:30"},
+    {"day": "Tuesday", "start_time": "17:30", "end_time": "21:30"},
+    {"day": "Tuesday", "start_time": "23:30", "end_time": "03:30"},
+    {"day": "Wednesday", "start_time": "17:30", "end_time": "21:30"},
+    {"day": "Wednesday", "start_time": "23:30", "end_time": "03:30"},
+    {"day": "Thursday", "start_time": "17:30", "end_time": "21:30"},
+    {"day": "Thursday", "start_time": "23:30", "end_time": "03:30"},
+    {"day": "Friday", "start_time": "17:30", "end_time": "21:30"},
+    {"day": "Friday", "start_time": "23:30", "end_time": "03:30"},
+    {"day": "Saturday", "start_time": "17:30", "end_time": "21:30"},
+    {"day": "Saturday", "start_time": "23:30", "end_time": "03:30"},
+    {"day": "Sunday", "status": "closed"}
+  ]
+}    
+
 ]
 }
