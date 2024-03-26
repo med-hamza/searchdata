@@ -1,7 +1,7 @@
 {
 "availability" :  [
    {
-  "doctor_id": 1,
+  "id": 1,
    "status": "available",
   "schedule": [
     {"day": "Monday", "start_time": "08:00", "end_time": "12:00"},
@@ -13,7 +13,7 @@
   ]
 },  
     {
-  "doctor_id": 2,
+  "id": 2,
   "status": "available",
   "schedule": [
     {"day": "Monday", "start_time": "08:30", "end_time": "12:30"},
@@ -25,7 +25,7 @@
   ]
 },
     {
-  "doctor_id": 3,
+  "id": 3,
   "status": "available",
   "schedule": [
     {"day": "Monday", "start_time": "09:00", "end_time": "13:00"},
@@ -37,7 +37,7 @@
   ]
 },
     {
-  "doctor_id": 4,
+  "id": 4,
   "status": "available",
   "schedule": [
     {"day": "Monday", "start_time": "09:30", "end_time": "13:30"},
@@ -61,7 +61,7 @@
   ]
 },
     {
-  "doctor_id": 6,
+  "id": 6,
   "status": "available",
   "schedule": [
     {"day": "Monday", "start_time": "10:30", "end_time": "14:30"},
@@ -73,7 +73,7 @@
   ]
 },
     {
-  "doctor_id": 7,
+  "id": 7,
   "status": "available",
   "schedule": [
     {"day": "Monday", "start_time": "11:00", "end_time": "15:00"},
@@ -85,7 +85,7 @@
   ]
 },
     {
-  "doctor_id": 8,
+  "id": 8,
   "status": "available",
   "schedule": [
     {"day": "Monday", "start_time": "11:30", "end_time": "15:30"},
@@ -97,7 +97,7 @@
   ]
 },
     {
-  "doctor_id": 9,
+  "id": 9,
   "status": "available",
   "schedule": [
     {"day": "Monday", "start_time": "12:00", "end_time": "16:00"},
@@ -109,7 +109,7 @@
   ]
 },
     {
-  "doctor_id": 10,
+  "id": 10,
   "status": "available",
   "schedule": [
     {"day": "Monday", "start_time": "12:30", "end_time": "16:30"},
@@ -121,7 +121,7 @@
   ]
 },
     {
-  "doctor_id": 11,
+  "id": 11,
   "status": "available",
   "schedule": [
     {"day": "Monday", "start_time": "13:00", "end_time": "17:00"},
@@ -133,7 +133,7 @@
   ]
 },
     {
-  "doctor_id": 12,
+  "id": 12,
   "status": "available",
   "schedule": [
     {"day": "Monday", "start_time": "13:30", "end_time": "17:30"},
@@ -145,7 +145,7 @@
   ]
 },
     {
-  "doctor_id": 13,
+  "id": 13,
   "status": "available",
   "schedule": [
     {"day": "Monday", "start_time": "14:00", "end_time": "18:00"},
@@ -157,7 +157,7 @@
   ]
 },
     {
-  "doctor_id": 14,
+  "id": 14,
   "status": "available",
   "schedule": [
     {"day": "Monday", "start_time": "14:30", "end_time": "18:30"},
@@ -169,7 +169,7 @@
   ]
 },
     {
-  "doctor_id": 15,
+  "id": 15,
   "status": "available",
   "schedule": [
     {"day": "Monday", "start_time": "15:00", "end_time": "19:00"},
@@ -181,7 +181,7 @@
   ]
 },
     {
-  "doctor_id": 16,
+  "id": 16,
   "status": "available",
   "schedule": [
     {"day": "Monday", "start_time": "15:30", "end_time": "19:30"},
@@ -193,7 +193,7 @@
   ]
 },
       {
-  "doctor_id": 17,
+  "id": 17,
   "status": "available",
   "schedule": [
     {"day": "Monday", "start_time": "14:00", "end_time": "18:00"},
@@ -205,7 +205,7 @@
   ]
 },
     {
-  "doctor_id": 18,
+  "id": 18,
   "status": "available",
   "schedule": [
     {"day": "Monday", "start_time": "16:30", "end_time": "20:30"},
@@ -217,7 +217,7 @@
   ]
 },
     {
-  "doctor_id": 19,
+  "id": 19,
   "status": "available",
   "schedule": [
     {"day": "Monday", "start_time": "17:00", "end_time": "21:00"},
@@ -229,7 +229,7 @@
   ]
 },
     {
-  "doctor_id": 20,
+  "id": 20,
   "status": "available",
   "schedule": [
     {"day": "Monday", "start_time": "17:30", "end_time": "21:30"},
