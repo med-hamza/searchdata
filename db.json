@@ -9,8 +9,7 @@
     {"day": "Wednesday", "start_time": "08:00", "end_time": "12:00"},
     {"day": "Thursday", "start_time": "08:00", "end_time": "12:00"},
     {"day": "Friday", "start_time": "08:00", "end_time": "12:00"},
-    {"day": "Saturday", "start_time": "08:00", "end_time": "12:00"},
-    {"day": "Sunday", "status": "closed"}
+    {"day": "Saturday", "start_time": "08:00", "end_time": "12:00"}
   ]
 },  
     {
@@ -22,8 +21,7 @@
     {"day": "Wednesday", "start_time": "14:30", "end_time": "18:30"},
     {"day": "Thursday", "start_time": "14:30", "end_time": "18:30"},
     {"day": "Friday", "start_time": "14:30", "end_time": "18:30"},
-    {"day": "Saturday", "start_time": "08:30", "end_time": "12:30"},
-    {"day": "Sunday", "status": "closed"}
+    {"day": "Saturday", "start_time": "08:30", "end_time": "12:30"}
   ]
 },
     {
@@ -35,8 +33,7 @@
     {"day": "Wednesday", "start_time": "15:00", "end_time": "19:00"},
     {"day": "Thursday", "start_time": "15:00", "end_time": "19:00"},
     {"day": "Friday", "start_time": "15:00", "end_time": "19:00"},
-    {"day": "Saturday", "start_time": "09:00", "end_time": "13:00"},
-    {"day": "Sunday", "status": "closed"}
+    {"day": "Saturday", "start_time": "09:00", "end_time": "13:00"}
   ]
 },
     {
@@ -48,8 +45,7 @@
     {"day": "Wednesday", "start_time": "15:30", "end_time": "19:30"},
     {"day": "Thursday", "start_time": "15:30", "end_time": "19:30"},
     {"day": "Friday", "start_time": "15:30", "end_time": "19:30"},
-    {"day": "Saturday", "start_time": "09:30", "end_time": "13:30"},
-    {"day": "Sunday", "status": "closed"}
+    {"day": "Saturday", "start_time": "09:30", "end_time": "13:30"}
   ]
 },
     {
@@ -61,8 +57,7 @@
     {"day": "Wednesday", "start_time": "10:00", "end_time": "14:00"},
     {"day": "Thursday", "start_time": "10:00", "end_time": "14:00"},
     {"day": "Friday", "start_time": "10:00", "end_time": "14:00"},
-    {"day": "Saturday", "start_time": "10:00", "end_time": "14:00"},
-    {"day": "Sunday", "status": "closed"}
+    {"day": "Saturday", "start_time": "10:00", "end_time": "14:00"}
   ]
 },
     {
@@ -74,8 +69,7 @@
     {"day": "Wednesday", "start_time": "16:30", "end_time": "20:30"},
     {"day": "Thursday", "start_time": "16:30", "end_time": "20:30"},
     {"day": "Friday", "start_time": "16:30", "end_time": "20:30"},
-    {"day": "Saturday", "start_time": "10:30", "end_time": "14:30"},
-    {"day": "Sunday", "status": "closed"}
+    {"day": "Saturday", "start_time": "10:30", "end_time": "14:30"}
   ]
 },
     {
@@ -87,8 +81,7 @@
     {"day": "Wednesday", "start_time": "11:00", "end_time": "15:00"},
     {"day": "Thursday", "start_time": "11:00", "end_time": "15:00"},
     {"day": "Friday", "start_time": "11:00", "end_time": "15:00"},
-    {"day": "Saturday", "start_time": "11:00", "end_time": "15:00"},
-    {"day": "Sunday", "status": "closed"}
+    {"day": "Saturday", "start_time": "11:00", "end_time": "15:00"}
   ]
 },
     {
@@ -100,8 +93,7 @@
     {"day": "Wednesday", "start_time": "11:30", "end_time": "15:30"},
     {"day": "Thursday", "start_time": "11:30", "end_time": "15:30"},
     {"day": "Friday", "start_time": "11:30", "end_time": "15:30"},
-    {"day": "Saturday", "start_time": "11:30", "end_time": "15:30"},
-    {"day": "Sunday", "status": "closed"}
+    {"day": "Saturday", "start_time": "11:30", "end_time": "15:30"}
   ]
 },
     {
@@ -113,8 +105,7 @@
     {"day": "Wednesday", "start_time": "12:00", "end_time": "16:00"},
     {"day": "Thursday", "start_time": "18:00", "end_time": "22:00"},
     {"day": "Friday", "start_time": "18:00", "end_time": "22:00"},
-    {"day": "Saturday", "start_time": "12:00", "end_time": "16:00"},
-    {"day": "Sunday", "status": "closed"}
+    {"day": "Saturday", "start_time": "12:00", "end_time": "16:00"}
   ]
 },
     {
@@ -126,8 +117,7 @@
     {"day": "Wednesday", "start_time": "12:30", "end_time": "16:30"},
     {"day": "Thursday", "start_time": "12:30", "end_time": "16:30"},
     {"day": "Friday", "start_time": "12:30", "end_time": "16:30"},
-    {"day": "Saturday", "start_time": "12:30", "end_time": "16:30"},
-    {"day": "Sunday", "status": "closed"}
+    {"day": "Saturday", "start_time": "12:30", "end_time": "16:30"}
   ]
 },
     {
@@ -139,8 +129,7 @@
     {"day": "Wednesday", "start_time": "13:00", "end_time": "17:00"},
     {"day": "Thursday", "start_time": "13:00", "end_time": "17:00"},
     {"day": "Friday", "start_time": "13:00", "end_time": "17:00"},
-    {"day": "Saturday", "start_time": "13:00", "end_time": "17:00"},
-    {"day": "Sunday", "status": "closed"}
+    {"day": "Saturday", "start_time": "13:00", "end_time": "17:00"}
   ]
 },
     {
@@ -152,8 +141,7 @@
     {"day": "Wednesday", "start_time": "19:30", "end_time": "23:30"},
     {"day": "Thursday", "start_time": "13:30", "end_time": "17:30"},
     {"day": "Friday", "start_time": "19:30", "end_time": "23:30"},
-    {"day": "Saturday", "start_time": "13:30", "end_time": "17:30"},
-    {"day": "Sunday", "status": "closed"}
+    {"day": "Saturday", "start_time": "13:30", "end_time": "17:30"}
   ]
 },
     {
@@ -165,8 +153,7 @@
     {"day": "Wednesday", "start_time": "14:00", "end_time": "18:00"},
     {"day": "Thursday", "start_time": "20:00", "end_time": "00:00"},
     {"day": "Friday", "start_time": "14:00", "end_time": "18:00"},
-    {"day": "Saturday", "start_time": "14:00", "end_time": "18:00"},
-    {"day": "Sunday", "status": "closed"}
+    {"day": "Saturday", "start_time": "14:00", "end_time": "18:00"}
   ]
 },
     {
@@ -178,8 +165,7 @@
     {"day": "Wednesday", "start_time": "14:30", "end_time": "18:30"},
     {"day": "Thursday", "start_time": "14:30", "end_time": "18:30"},
     {"day": "Friday", "start_time": "14:30", "end_time": "18:30"},
-    {"day": "Saturday", "start_time": "14:30", "end_time": "18:30"},
-    {"day": "Sunday", "status": "closed"}
+    {"day": "Saturday", "start_time": "14:30", "end_time": "18:30"}
   ]
 },
     {
@@ -191,8 +177,7 @@
     {"day": "Wednesday", "start_time": "15:00", "end_time": "19:00"},
     {"day": "Thursday", "start_time": "21:00", "end_time": "01:00"},
     {"day": "Friday", "start_time": "15:00", "end_time": "19:00"},
-    {"day": "Saturday", "start_time": "21:00", "end_time": "01:00"},
-    {"day": "Sunday", "status": "closed"}
+    {"day": "Saturday", "start_time": "21:00", "end_time": "01:00"}
   ]
 },
     {
@@ -204,8 +189,7 @@
     {"day": "Wednesday", "start_time": "15:30", "end_time": "19:30"},
     {"day": "Thursday", "start_time": "21:30", "end_time": "01:30"},
     {"day": "Friday", "start_time": "15:30", "end_time": "19:30"},
-    {"day": "Saturday", "start_time": "21:30", "end_time": "01:30"},
-    {"day": "Sunday", "status": "closed"}
+    {"day": "Saturday", "start_time": "21:30", "end_time": "01:30"}
   ]
 },
       {
@@ -217,8 +201,7 @@
     {"day": "Wednesday", "start_time": "14:00", "end_time": "18:00"},
     {"day": "Thursday", "start_time": "20:00", "end_time": "00:00"},
     {"day": "Friday", "start_time": "14:00", "end_time": "18:00"},
-    {"day": "Saturday", "start_time": "14:00", "end_time": "18:00"},
-    {"day": "Sunday", "status": "closed"}
+    {"day": "Saturday", "start_time": "14:00", "end_time": "18:00"}
   ]
 },
     {
@@ -230,8 +213,7 @@
     {"day": "Wednesday", "start_time": "16:30", "end_time": "20:30"},
     {"day": "Thursday", "start_time": "22:30", "end_time": "02:30"},
     {"day": "Friday", "start_time": "16:30", "end_time": "20:30"},
-    {"day": "Saturday", "start_time": "22:30", "end_time": "02:30"},
-    {"day": "Sunday", "status": "closed"}
+    {"day": "Saturday", "start_time": "22:30", "end_time": "02:30"}
   ]
 },
     {
@@ -243,8 +225,7 @@
     {"day": "Wednesday", "start_time": "17:00", "end_time": "21:00"},
     {"day": "Thursday", "start_time": "23:00", "end_time": "03:00"},
     {"day": "Friday", "start_time": "17:00", "end_time": "21:00"},
-    {"day": "Saturday", "start_time": "23:00", "end_time": "03:00"},
-    {"day": "Sunday", "status": "closed"}
+    {"day": "Saturday", "start_time": "23:00", "end_time": "03:00"}
   ]
 },
     {
@@ -256,8 +237,7 @@
     {"day": "Wednesday", "start_time": "17:30", "end_time": "21:30"},
     {"day": "Thursday", "start_time": "23:30", "end_time": "03:30"},
     {"day": "Friday", "start_time": "17:30", "end_time": "21:30"},
-    {"day": "Saturday", "start_time": "23:30", "end_time": "03:30"},
-    {"day": "Sunday", "status": "closed"}
+    {"day": "Saturday", "start_time": "23:30", "end_time": "03:30"}
   ]
 }    
 ]
