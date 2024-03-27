@@ -49,7 +49,7 @@
   ]
 },
     {
-  "doctor_id": 5,
+  "id": 5,
   "status": "available",
   "schedule": [
     {"day": "Monday", "start_time": "10:00", "end_time": "14:00"},
